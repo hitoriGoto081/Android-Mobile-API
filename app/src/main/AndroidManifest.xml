@@ -15,23 +15,25 @@
         android:theme="@style/Theme.LoginPage"
         android:usesCleartextTraffic="true"
         tools:targetApi="31">
-        <activity
-            android:name=".register"
+
+        <activity android:name=".register"
             android:exported="false" />
-        <activity
-            android:name=".login"
+
+        <activity android:name=".login"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity
-            android:name=".MainActivity"
+
+        <activity android:name=".MainActivity"
             android:exported="true">
-
         </activity>
-    </application>
 
+        <activity android:name=".update"
+            android:exported="true">
+        </activity>
+
+    </application>
 </manifest>
